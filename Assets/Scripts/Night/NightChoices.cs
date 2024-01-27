@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ScriptableObjects;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,21 +16,21 @@ namespace Night
             public object Value;
         }
 
-        public List<NightChoicesButton> buttons;
-        public Choice[] Choices;
+        public List<Button> buttons = new List<Button>();
 
         public GameObject buttonPrefab;
-
-        public NightChoices(NightSlot slot)
+        public NightManager nightManager;
+        
+        public void InitializeWithActivities(NightSlot[] activities)
         {
-            buttons = new List<NightChoicesButton>();
-            foreach (ShowTheme theme in slot.ChosenThemes)
+            foreach (NightSlot slot in activities)
             {
-                NightChoicesButton newButton = Instantiate(buttonPrefab, transform).GetComponent<NightChoicesButton>();
-                newButton.Action = () =>
+                Button newButton = Instantiate(buttonPrefab, transform).GetComponent<Button>();
+                newButton.onClick.AddListener(() =>
                 {
-                    return;
-                };
+                    nightManager.ChooseActivity(slot.Activity);
+                });
+                newButton.GetComponentInChildren<TMP_Text>().text = slot.Activity.activityName;
                 buttons.Add(newButton);
             }
         }

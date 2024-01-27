@@ -4,43 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62df8c6d-9130-47fa-9bd2-9fd374afd9c7" name="Changes" comment="chore: missing files in last commit">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/EExtraEffects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/EExtraEffects.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/EModifiers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/EModifiers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IExtras.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IExtras.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ExtraEffects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ExtraEffects/ExtraAttention.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ExtraEffects/ExtraAttention.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ExtraEffects/ExtraEffectFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ExtraEffects/ExtraEffectFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoices.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoicesButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoicesButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightUIManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightUIManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ResourceUpdates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ResourceUpdates.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BonusMalus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/BonusMalus.cs.meta" afterDir="false" />
+    <list default="true" id="62df8c6d-9130-47fa-9bd2-9fd374afd9c7" name="Changes" comment="feat: night cycle completed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2024/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NightScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SetupScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SetupScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Activities/dosHoras.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Activities/dosHoras.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Activities/idle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Activities/idle.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Activities/unaHora.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Activities/unaHora.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoicesButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoicesButton.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/ShowActivityWithTheme.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/ShowActivityWithTheme.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightSlot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ShowActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ShowActivity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightUIManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +33,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/ResultScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/ScriptableObjects/Activities/dosHoras.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Results/ResultManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ShowTheme.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Toggle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -155,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706295597239</updated>
-      <workItem from="1706295599470" duration="22935000" />
+      <workItem from="1706295599470" duration="28547000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First Unity commit">
       <option name="closed" value="true" />
@@ -197,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706320139019</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: night cycle completed">
+      <option name="closed" value="true" />
+      <created>1706353969584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706353969584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +207,7 @@
     <MESSAGE value="chore: I forgot one file" />
     <MESSAGE value="feat: Implemented first full Night simulation" />
     <MESSAGE value="chore: missing files in last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: missing files in last commit" />
+    <MESSAGE value="feat: night cycle completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: night cycle completed" />
   </component>
 </project>

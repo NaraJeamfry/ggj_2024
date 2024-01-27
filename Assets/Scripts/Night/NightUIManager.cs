@@ -20,7 +20,14 @@ namespace Night
         private void Update()
         {
             percent.text = $"Progress: {nightManager.NightProgress * 100}";
-            activityName.text = $"Ongoing: {nightManager.currentActivity.activityName}";
+            if (nightManager.waitingChoice)
+            {
+                activityName.text = "Waiting...";
+            }
+            else
+            {
+                activityName.text = $"Ongoing: {nightManager.currentActivity.activityName}";
+            }
         }
     }
 }
