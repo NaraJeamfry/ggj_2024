@@ -14,3 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Introduccion
+  repetitionWear: 0.5
+  extraEffects: 1
+  needsChoice: 0
+  updates:
+    moneyChange: 15
+    renownChange: 10
+    staminaChange: -25
+    laughChange: 25

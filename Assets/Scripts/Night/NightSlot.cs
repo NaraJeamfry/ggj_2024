@@ -4,9 +4,9 @@ using ScriptableObjects;
 namespace Night
 {
     [Serializable]
-    public class ShowActivityWithTheme
+    public class NightSlot
     {
         public ShowActivity Activity;
-        public ShowTheme Theme;
+        public ShowTheme[] ChosenThemes;
     }
 }

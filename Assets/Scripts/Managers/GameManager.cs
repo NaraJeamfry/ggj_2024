@@ -10,9 +10,15 @@ namespace Managers
     {
         public NightState currentNight;
 
+        public int money;
+        public int renown;
+        public int stamina;
         public int laughPoints;
         public string nightScene;
         public string resultsScene;
+
+        public bool Paused => _paused;
+        [SerializeField] private bool _paused;
 
         private NightManager _nightManager;
 
@@ -22,14 +28,37 @@ namespace Managers
             _nightManager.StartNight(currentNight);
         }
 
-        private void Start()
+        public void StartNight()
         {
-            SceneManager.LoadScene(nightScene, LoadSceneMode.Single);
+            if (_nightManager is null || !_nightManager.nightOngoing)
+            {
+                SceneManager.LoadScene(nightScene, LoadSceneMode.Single);
+            }
         }
         
         private void Update()
         {
             
+        }
+
+        public void PauseGame()
+        {
+            Time.timeScale = 0;
+            _paused = true;
+        }
+
+        public void ResumeGame()
+        {
+            Time.timeScale = 1;
+            _paused = false;
+        }
+
+        public void UpdateResources(ResourceUpdates updates)
+        {
+            money += updates.moneyChange;
+            renown += updates.renownChange;
+            stamina += updates.staminaChange;
+            laughPoints += updates.laughChange;
         }
         
         public void FinishNight()

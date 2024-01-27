@@ -14,3 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 2
   activityName: Entrevista
+  repetitionWear: 0.34
+  extraEffects: 1
+  needsChoice: 0
+  updates:
+    moneyChange: 10
+    renownChange: 5
+    staminaChange: -10
+    laughChange: 5

@@ -9,16 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e451bbae8a53446fa9bbc14d08130b08, type: 3}
-  m_Name: idle
+  m_Script: {fileID: 11500000, guid: 23d65a1e4bc14588b0ed5d7157006b8d, type: 3}
+  m_Name: Tired
   m_EditorClassIdentifier: 
-  length: 1
-  activityName: Idling...
-  repetitionWear: 0.1
-  extraEffects: 1
-  needsChoice: 0
-  updates:
-    moneyChange: 5
-    renownChange: -2
-    staminaChange: 10
-    laughChange: 0
+  icon: {fileID: 0}
+  name: Tired
+  modifier: 0
+  value: 0.8

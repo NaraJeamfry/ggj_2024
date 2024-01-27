@@ -1,3 +1,7 @@
+using Enums;
+using Interfaces;
+using Night;
+using UnityEditor;
 using UnityEngine;
 
 namespace ScriptableObjects
@@ -7,5 +11,10 @@ namespace ScriptableObjects
     {
         public int length = 1;
         public string activityName;
+        public float repetitionWear = 0.5f;
+        public EExtraEffects extraEffects;
+        public bool needsChoice;
+
+        public ResourceUpdates updates;
     }
 }

@@ -11,7 +11,7 @@ namespace Night
         [SerializeField]
         public ShowTheme[] nightThemes;
         [SerializeField]
-        public ShowActivityWithTheme[] showActivities;
+        public NightSlot[] showActivities;
 
         public ShowTheme[] NightThemes
         {
@@ -21,7 +21,7 @@ namespace Night
             }
         }
 
-        public ShowActivityWithTheme[] ShowActivities
+        public NightSlot[] ShowActivities
         {
             get
             {
