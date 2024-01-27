@@ -15,6 +15,7 @@ public class SectionsUI : MonoBehaviour
             if(type != EActivityTypes.none) {
                 SectionTypeUI newSection = SectionUIObject.GetComponent<SectionTypeUI>();
                 newSection.title = type.ToString();
+                newSection.type = type;
                 var instance = Instantiate(newSection, new Vector3(0, 0, 0), Quaternion.identity);
                 instance.transform.parent = gameObject.transform;
             }
@@ -22,8 +23,8 @@ public class SectionsUI : MonoBehaviour
         }
     }
 
-    public void openSectionWindow(EActivityTypes section) {
-        sectionWindow.sectionTitle.text = section.ToString();
+    public void openSectionWindow(EActivityTypes sectionType) {
+        sectionWindow.GetComponent<SectionWindow>().changeWindowType(sectionType);
         sectionWindow.SetActive(true);
     }
 }

@@ -33,6 +33,8 @@ public class SelectionManager : MonoBehaviour
     public ShowActivity[] availableShowElements;
     public ShowActivity[] selectedShowElements;
     public int maxShowElements;
+
+    public GameObject SectionWindow;
     
     // Start is called before the first frame update
     void Start()

@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   title: seccion
+  type: 4
   titleUI: {fileID: 2126777498711528732}
 --- !u!222 &3644285319754799695
 CanvasRenderer:
