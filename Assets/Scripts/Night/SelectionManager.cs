@@ -17,7 +17,7 @@ public class SelectionManager : MonoBehaviour
     public int reputation = 0;
     public TMP_Text reputationText;
     public int yesterdayLaughPoints = 0;
-    public string theme;
+    public ShowTheme theme;
     public TMP_Text themeUI;
     public ShowActivity[] availableShowElements;
     public List<ShowActivity> selectedShowActivities;
@@ -33,7 +33,7 @@ public class SelectionManager : MonoBehaviour
         moneyText.text = money.ToString();
         energyText.text = energy.ToString();
         reputationText.text = reputation.ToString();
-        themeUI.text = theme;
+        themeUI.text = theme.themeName;
 
         for(int i = 0; i < ActivitySlots.Length-1; i++){
             if(i > maxShowActivities){

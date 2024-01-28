@@ -24,7 +24,8 @@ public class SectionWindow : MonoBehaviour
     public void changeWindowType(EActivityTypes type) {
         sectionType = type;
         windowTitle.text = sectionType.ToString();
-        sectionShowActivities = selectionManager.availableShowElements.Where(showElement => showElement.type == sectionType).ToArray();
+        Debug.Log(selectionManager.availableShowElements);
+        sectionShowActivities = selectionManager.availableShowElements.Where(showActivity => showActivity.type == sectionType).ToArray();
         //Añadir filtro para reputacion
 
         foreach (Transform child in activitiesList.transform) {
