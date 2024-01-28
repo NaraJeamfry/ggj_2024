@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Introduccion
-  type: 0
+  type: 4
   repetitionWear: 0.5
   extraEffects: 1
   needsChoice: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 2
   activityName: Entrevista
-  type: 0
+  type: 2
   repetitionWear: 0.34
   extraEffects: 1
   needsChoice: 0

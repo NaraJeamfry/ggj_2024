@@ -749,6 +749,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: db3d49405cade402fadd5ddf1c98aed2, type: 2}
     - {fileID: 11400000, guid: fee6cd9e737984331a7fc8f2ff3860dd, type: 2}
     - {fileID: 11400000, guid: 5845961cece8248acb7fdab74093ccd6, type: 2}
+    - {fileID: 11400000, guid: c1f1af2ecc45f4ac889c8ea8462e4936, type: 2}
     guests: []
     npcTypeCount: 2
   _paused: 0

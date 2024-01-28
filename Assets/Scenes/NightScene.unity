@@ -1539,8 +1539,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 528.1444, y: 351.7308}
+  m_AnchoredPosition: {x: -66.513, y: 250.76}
+  m_SizeDelta: {x: 733.63, y: 753.97}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &645196352
 MonoBehaviour:
@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3836,6 +3836,8 @@ MonoBehaviour:
   activityName: {fileID: 1459373127}
   percent: {fileID: 1867610315}
   nightManager: {fileID: 1598235181}
+  progress: {fileID: 519054205}
+  show: {fileID: 692860898}
 --- !u!114 &1598235181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3858,6 +3860,10 @@ MonoBehaviour:
       ChosenThemes: []
     - Activity: {fileID: 11400000, guid: 79b53349fa4b74b04abe9593b4d22c07, type: 2}
       ChosenThemes: []
+    preview:
+      settings:
+        validTypes: []
+      guests: []
   readyToAdvance: 0
   nightOngoing: 0
   startTime: 18
@@ -4576,7 +4582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 253.5}
+  m_AnchoredPosition: {x: 0, y: 409}
   m_SizeDelta: {x: 425.2527, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1867610315
@@ -5564,13 +5570,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 645196351}
   - {fileID: 692860897}
   - {fileID: 1734315084}
   - {fileID: 1048559475}
   - {fileID: 519054202}
   - {fileID: 1305128948}
   - {fileID: 1459373126}
-  - {fileID: 645196351}
   - {fileID: 1867610314}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
