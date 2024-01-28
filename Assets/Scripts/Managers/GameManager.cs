@@ -3,6 +3,7 @@ using Night;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utils;
+using Random = System.Random;
 
 namespace Managers
 {
@@ -16,11 +17,27 @@ namespace Managers
         public int laughPoints;
         public string nightScene;
         public string resultsScene;
+        public GameSettings gameSettings;
 
         public bool Paused => _paused;
         [SerializeField] private bool _paused;
 
+        public int initialSeed = 0;
+        public bool startRandom = false;
+        private Random _dailyRandomizer;
+
         private NightManager _nightManager;
+
+        public NightPreview preview;
+
+        private void Start()
+        {
+            if (startRandom)
+                initialSeed = Environment.TickCount;
+            _dailyRandomizer = new Random(initialSeed);
+
+            preview = RoundInitializer.GenerateRound(_dailyRandomizer.Next(), gameSettings);
+        }
 
         public void SetNightManager(NightManager newNightManager)
         {

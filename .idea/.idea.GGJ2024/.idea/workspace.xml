@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62df8c6d-9130-47fa-9bd2-9fd374afd9c7" name="Changes" comment="feat: night cycle completed">
+    <list default="true" id="62df8c6d-9130-47fa-9bd2-9fd374afd9c7" name="Changes" comment="feat: Implemented turn-based activity choosing">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundInitializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightPreview.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightPreview.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Guest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Guest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NpcType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NightScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoicesButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightChoicesButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/NightUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SetupScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SetupScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/ResultScene.unity" root0="SKIP_HIGHLIGHTING" />
@@ -129,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706295597239</updated>
-      <workItem from="1706295599470" duration="28547000" />
+      <workItem from="1706295599470" duration="33184000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First Unity commit">
       <option name="closed" value="true" />
@@ -179,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706353969584</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Implemented turn-based activity choosing">
+      <option name="closed" value="true" />
+      <created>1706379089184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706379089184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +224,7 @@
     <MESSAGE value="feat: Implemented first full Night simulation" />
     <MESSAGE value="chore: missing files in last commit" />
     <MESSAGE value="feat: night cycle completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: night cycle completed" />
+    <MESSAGE value="feat: Implemented turn-based activity choosing" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented turn-based activity choosing" />
   </component>
 </project>
