@@ -7,7 +7,7 @@ public class ProgressBar : MonoBehaviour
     [Range(0,1  )]
     public float progress = 0;
     public GameObject bar;
-    public float barMaxWidthPx;
+    private float barMaxWidthPx;
 
     // Start is called before the first frame update
     void Start()
