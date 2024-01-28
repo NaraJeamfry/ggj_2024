@@ -17,8 +17,7 @@ public class SectionsUI : MonoBehaviour
                 SectionTypeUI newSection = SectionUIObject.GetComponent<SectionTypeUI>();
                 newSection.title = type.ToString();
                 newSection.type = type;
-                var instance = Instantiate(newSection, new Vector3(0, 0, 0), Quaternion.identity);
-                instance.transform.parent = gameObject.transform;
+                var instance = Instantiate(newSection, gameObject.transform);
             }
 
         }

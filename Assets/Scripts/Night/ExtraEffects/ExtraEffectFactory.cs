@@ -10,6 +10,7 @@ namespace Night.ExtraEffects
         private static readonly Dictionary<EExtraEffects, Func<IExtras>> Classes = new()
         {
             { EExtraEffects.Attention, () => new ExtraAttention() },
+            { EExtraEffects.AudienceLaugh, () => new ExtraLaughs() },
             { EExtraEffects.None, () => null }
         };
 

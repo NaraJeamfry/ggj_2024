@@ -14,11 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Idling...
+  type: 4
   repetitionWear: 0.1
   extraEffects: 1
   needsChoice: 0
+  moneyCost: 0
+  energyCost: 0
+  neededReputation: 0
   updates:
     moneyChange: 5
     renownChange: -2
     staminaChange: 10
     laughChange: 0
+  laughPoints: 0
+  available: 1
+  themes: []

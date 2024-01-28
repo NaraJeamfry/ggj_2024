@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e451bbae8a53446fa9bbc14d08130b08, type: 3}
-  m_Name: unaHora
+  m_Name: Chistes de calvos
   m_EditorClassIdentifier: 
   length: 1
-  activityName: Introduccion
+  activityName: 
   type: 0
   repetitionWear: 0.5
   extraEffects: 1
@@ -22,10 +22,11 @@ MonoBehaviour:
   energyCost: 0
   neededReputation: 0
   updates:
-    moneyChange: 15
-    renownChange: 10
-    staminaChange: -25
+    moneyChange: 0
+    renownChange: 0
+    staminaChange: 0
     laughChange: 0
   laughPoints: 5
   available: 1
-  themes: []
+  themes:
+  - {fileID: 11400000, guid: 4df4191012d314a2c82a86097fbb6820, type: 2}

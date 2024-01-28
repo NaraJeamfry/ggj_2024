@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace ScriptableObjects
@@ -7,5 +8,7 @@ namespace ScriptableObjects
     {
         public Sprite person;
         public string typeName;
+        public List<ShowTheme> favoriteThemes;
+        public List<ShowTheme> hateThemes;
     }
 }

@@ -5,7 +5,7 @@ using ScriptableObjects;
 
 namespace Managers
 {
-    public class RoundInitializer
+    public static class RoundInitializer
     {
         public static NightPreview GenerateRound(int levelSeed, GameSettings settings)
         {
@@ -14,7 +14,7 @@ namespace Managers
             NightPreview result = new NightPreview();
 
             result.settings = GenerateRoundSettings(random, settings);
-            result.audience = GenerateAudience(random, result.settings);
+            result.Audience = GenerateAudience(random, result.settings);
 
             return result;
         }

@@ -2991,7 +2991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -167.22623, y: -1.1838837}
+  m_AnchoredPosition: {x: -167.22623, y: -1.1838989}
   m_SizeDelta: {x: 261.3324, y: -14.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998953828
@@ -4425,7 +4425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -22.586395, y: -0.93370056}
+  m_AnchoredPosition: {x: -22.586395, y: -0.9337158}
   m_SizeDelta: {x: 27.9398, y: -14.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1627580255
@@ -6045,48 +6045,12 @@ MonoBehaviour:
   theme: Theme Tonight
   themeUI: {fileID: 1290820680}
   availableShowElements:
-  - name: Chistes de calvos
-    type: 1
-    moneyCost: 10
-    energyCost: 5
-    neededReputation: 0
-    laughPoints: 10
-    available: 1
-  - name: Chistes Carrero Blanco
-    type: 1
-    moneyCost: 10
-    energyCost: 5
-    neededReputation: 10
-    laughPoints: 20
-    available: 1
-  - name: Chuckyra
-    type: 2
-    moneyCost: 100
-    energyCost: 10
-    neededReputation: 50
-    laughPoints: 20
-    available: 1
-  - name: Los blancos voladores
-    type: 3
-    moneyCost: 45
-    energyCost: 15
-    neededReputation: 30
-    laughPoints: 15
-    available: 1
-  - name: El hombre de negro
-    type: 4
-    moneyCost: 10
-    energyCost: 10
-    neededReputation: 10
-    laughPoints: 10
-    available: 1
-  - name: Flipy
-    type: 4
-    moneyCost: 20
-    energyCost: 15
-    neededReputation: 5
-    laughPoints: 15
-    available: 1
+  - {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
+  - {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
+  - {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
+  - {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
+  - {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
+  - {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
   selectedShowActivities: []
   maxShowActivities: 9
   ActivitySlots:

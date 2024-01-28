@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ScriptableObjects
 {
-    [CreateAssetMenu(menuName = "NPCs/Guest")]
+    [CreateAssetMenu(menuName = "NPC/Guest")]
     public class Guest : ScriptableObject
     {
         public Sprite sprite;

@@ -1,4 +1,5 @@
 using Night;
+using ScriptableObjects;
 
 namespace Interfaces
 {
@@ -7,6 +8,6 @@ namespace Interfaces
     /// </summary>
     public interface IExtras
     {
-        public void ApplyExtras(NightManager nightManager);
+        public void ApplyExtras(ShowActivity activity, NightManager nightManager);
     }
 }
