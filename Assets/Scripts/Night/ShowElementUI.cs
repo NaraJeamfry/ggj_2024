@@ -35,7 +35,7 @@ public class ShowElementUI : MonoBehaviour
             case EActivityTypes.Invitado: 
                 return Color.blue;
             case EActivityTypes.InvitadoMusical: 
-                return Color.yellow;
+                return Color.yellow; 
             case EActivityTypes.Chiste: 
                 return Color.green;
             default: 
