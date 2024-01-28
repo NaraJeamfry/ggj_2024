@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: celtasLargos
   m_EditorClassIdentifier: 
   length: 1
-  activityName: 
-  type: 0
-  repetitionWear: 0.5
+  activityName: Celtas Largos
+  type: 3
+  repetitionWear: 1
   extraEffects: 0
   needsChoice: 0
-  moneyCost: 0
-  energyCost: 0
-  neededReputation: 0
+  moneyCost: 10
+  energyCost: 5
+  neededReputation: 10
   updates:
     moneyChange: 0
     renownChange: 0
     staminaChange: 0
     laughChange: 0
-  laughPoints: 0
+  laughPoints: 10
   available: 1

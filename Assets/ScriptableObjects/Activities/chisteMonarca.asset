@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: chisteMonarca
   m_EditorClassIdentifier: 
   length: 1
-  activityName: 
+  activityName: Chiste Monarca
   type: 0
-  repetitionWear: 0.5
+  repetitionWear: 0.8
   extraEffects: 0
   needsChoice: 0
-  moneyCost: 0
-  energyCost: 0
-  neededReputation: 0
+  moneyCost: 5
+  energyCost: 10
+  neededReputation: 5
   updates:
     moneyChange: 0
     renownChange: 0
     staminaChange: 0
     laughChange: 0
-  laughPoints: 0
+  laughPoints: 20
   available: 1

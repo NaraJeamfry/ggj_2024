@@ -35,8 +35,8 @@ public class SelectionManager : MonoBehaviour
         reputationText.text = reputation.ToString();
         themeUI.text = theme.themeName;
 
-        for(int i = 0; i < ActivitySlots.Length-1; i++){
-            if(i > maxShowActivities){
+        for(int i = 0; i < ActivitySlots.Length; i++){
+            if(i >= maxShowActivities){
                 ActivitySlots[i].SetActive(false);
                 ActivityXs[i].SetActive(false);
             } else {
@@ -55,6 +55,7 @@ public class SelectionManager : MonoBehaviour
 
     public void selectActivity(ShowActivity activity) {
         selectedShowActivities.Add(activity);
+        Debug.Log(selectedShowActivities.Count - 1);
         GameObject activitySlot = ActivitySlots[selectedShowActivities.Count - 1];
         var instance = Instantiate(showActivitUIPrefab, activitySlot.transform);
         ShowElementUI newShowElement = instance.GetComponent<ShowElementUI>();
@@ -76,14 +77,9 @@ public class SelectionManager : MonoBehaviour
         //Reorganize
         Debug.Log(selectedShowActivities.Count);
         if(slot != selectedShowActivities.Count) {
-            for(int i = slot + 1; i < selectedShowActivities.Count; i++){
-                selectedShowActivities[i-1] = selectedShowActivities[i];
+            for(int i = slot + 1; i < selectedShowActivities.Count+1; i++) {
                 ActivitySlots[i].transform.GetChild(0).SetParent(ActivitySlots[i-1].transform);
             }
-            foreach (Transform child in ActivitySlots[selectedShowActivities.Count].transform) {
-                GameObject.Destroy(child.gameObject);
-            }
-            selectedShowActivities.RemoveAt(selectedShowActivities.Count);
         }
     }
 }

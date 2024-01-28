@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: invitadoBrudPitt
   m_EditorClassIdentifier: 
   length: 1
-  activityName: 
+  activityName: Brud Pitt
   type: 0
-  repetitionWear: 0.5
+  repetitionWear: 0.3
   extraEffects: 0
   needsChoice: 0
-  moneyCost: 0
-  energyCost: 0
-  neededReputation: 0
+  moneyCost: 30
+  energyCost: 5
+  neededReputation: 20
   updates:
     moneyChange: 0
     renownChange: 0
     staminaChange: 0
     laughChange: 0
-  laughPoints: 0
+  laughPoints: 20
   available: 1
