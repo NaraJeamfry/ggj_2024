@@ -81,7 +81,7 @@ namespace Night
                 
             IExtras extras = ExtraEffectFactory.CreateExtra(currentActivity.extraEffects);
 
-            extras?.ApplyExtras(this);
+            extras?.ApplyExtras(currentActivity, this);
 
             ActivityResults();
         }

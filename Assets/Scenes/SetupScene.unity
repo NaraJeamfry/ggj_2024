@@ -732,8 +732,12 @@ MonoBehaviour:
       ChosenThemes: []
     - Activity: {fileID: 11400000, guid: 7156ca70558074e4db304d8476064b66, type: 2}
       ChosenThemes: []
-    - Activity: {fileID: 11400000, guid: 7156ca70558074e4db304d8476064b66, type: 2}
+    - Activity: {fileID: 11400000, guid: e07aad02e4d8442d0a290aea4a6548b8, type: 2}
       ChosenThemes: []
+    preview:
+      settings:
+        validTypes: []
+      guests: []
   money: 0
   renown: 0
   stamina: 0
@@ -753,7 +757,6 @@ MonoBehaviour:
   preview:
     settings:
       validTypes: []
-    audience: []
     guests: []
 --- !u!1 &2140705456
 GameObject:

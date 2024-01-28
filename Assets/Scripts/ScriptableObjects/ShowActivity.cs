@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Enums;
 using Interfaces;
 using Night;
@@ -25,6 +26,8 @@ namespace ScriptableObjects
         
         public int laughPoints = 0;
         public bool available = true;
+
+        public List<ShowTheme> themes;
     }
     
     

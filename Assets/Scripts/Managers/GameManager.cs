@@ -42,6 +42,7 @@ namespace Managers
         public void SetNightManager(NightManager newNightManager)
         {
             _nightManager = newNightManager;
+            currentNight.preview = preview;
             _nightManager.StartNight(currentNight);
         }
 

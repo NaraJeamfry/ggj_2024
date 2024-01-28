@@ -13,6 +13,8 @@ namespace Night
         [SerializeField]
         public NightSlot[] showActivities;
 
+        public NightPreview preview;
+
         public ShowTheme[] NightThemes
         {
             get
