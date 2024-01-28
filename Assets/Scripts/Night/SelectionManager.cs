@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Enums;
+using Managers;
+using Night;
 using ScriptableObjects;
 using UnityEditor.Tilemaps;
 using UnityEngine;
@@ -10,33 +12,35 @@ using TMPro;
 
 public class SelectionManager : MonoBehaviour
 {
-    public int money = 1000;
     public TMP_Text moneyText;
-    public int energy = 20;
     public TMP_Text energyText;
-    public int reputation = 0;
     public TMP_Text reputationText;
     public int yesterdayLaughPoints = 0;
     public ShowTheme theme;
     public TMP_Text themeUI;
     public ShowActivity[] availableShowElements;
     public List<ShowActivity> selectedShowActivities;
-    public int maxShowActivities;
     public GameObject[] ActivitySlots;
     public GameObject[] ActivityXs;
 
     public GameObject showActivitUIPrefab;
+
+    private GameManager _gameManager;
     
     // Start is called before the first frame update
     void Start()
     {
-        moneyText.text = money.ToString();
-        energyText.text = energy.ToString();
-        reputationText.text = reputation.ToString();
-        themeUI.text = theme.themeName;
+        _gameManager = GameManager.Instance;
+    }
+
+    public void StartPreparing()
+    {
+        moneyText.text = $"{_gameManager.money}";
+        reputationText.text = $"{_gameManager.renown}";
+        themeUI.text = $"{_gameManager.preview.extraTheme}";
 
         for(int i = 0; i < ActivitySlots.Length; i++){
-            if(i >= maxShowActivities){
+            if(i >= _gameManager.gameSettings.maxActivities){
                 ActivitySlots[i].SetActive(false);
                 ActivityXs[i].SetActive(false);
             } else {
@@ -51,6 +55,17 @@ public class SelectionManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void FinishPreparing()
+    {
+        NightState nightState = new()
+        {
+            preview = _gameManager.preview,
+            showActivities = selectedShowActivities.ToArray()
+        };
+
+        _gameManager.FinishPreparing(nightState);
     }
 
     public void selectActivity(ShowActivity activity) {

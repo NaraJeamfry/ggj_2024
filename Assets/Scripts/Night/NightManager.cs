@@ -34,7 +34,7 @@ namespace Night
         public NightChoices nightChoices;
 
         private GameManager _gameManager;
-        private Queue<NightSlot> _nightActivities;
+        private Queue<ShowActivity> _nightActivities;
 
         public int CurrentTime => (startTime + counter) % 24;
         public float NightProgress => (counter + activityTimer / slotDuration) / slotCount;
@@ -42,7 +42,7 @@ namespace Night
         protected virtual void Start()
         {
             _gameManager = GameManager.Instance;
-            _nightActivities = new Queue<NightSlot>();
+            _nightActivities = new Queue<ShowActivity>();
             
             _gameManager.SetNightManager(this);
         }
@@ -62,7 +62,7 @@ namespace Night
             nightChoices.InitializeWithActivities(nightState.ShowActivities);
             
             // Enqueue all activities
-            new List<NightSlot>(nightState.ShowActivities).ForEach(_nightActivities.Enqueue);
+            new List<ShowActivity>(nightState.ShowActivities).ForEach(_nightActivities.Enqueue);
             
             Debug.Log($"[NightManager] Starting new night. Will manage state on next Update.");
         }

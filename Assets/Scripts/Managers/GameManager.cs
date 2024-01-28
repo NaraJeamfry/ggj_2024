@@ -53,10 +53,11 @@ namespace Managers
                 SceneManager.LoadScene(nightScene, LoadSceneMode.Single);
             }
         }
-        
-        private void Update()
+
+        public void FinishPreparing(NightState state)
         {
-            
+            currentNight = state;
+            StartNight();
         }
 
         public void PauseGame()

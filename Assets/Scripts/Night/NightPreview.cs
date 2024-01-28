@@ -13,6 +13,8 @@ namespace Night
         public List<Guest> guests;
         public Dictionary<NpcType, int> AudienceStats { get; private set; }
 
+        public ShowTheme extraTheme;  // Extra theme for today. May or may not exist.
+
         public List<NpcType> Audience
         {
             get => _audience;

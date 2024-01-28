@@ -21,16 +21,16 @@ namespace Night
         public GameObject buttonPrefab;
         public NightManager nightManager;
         
-        public void InitializeWithActivities(NightSlot[] activities)
+        public void InitializeWithActivities(ShowActivity[] activities)
         {
-            foreach (NightSlot slot in activities)
+            foreach (ShowActivity slot in activities)
             {
                 Button newButton = Instantiate(buttonPrefab, transform).GetComponent<Button>();
                 newButton.onClick.AddListener(() =>
                 {
-                    nightManager.ChooseActivity(slot.Activity);
+                    nightManager.ChooseActivity(slot);
                 });
-                newButton.GetComponentInChildren<TMP_Text>().text = slot.Activity.activityName;
+                newButton.GetComponentInChildren<TMP_Text>().text = slot.activityName;
                 buttons.Add(newButton);
             }
         }

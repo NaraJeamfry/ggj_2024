@@ -10,5 +10,8 @@ namespace Managers
         public List<NpcType> npcTypes;
         public List<Guest> guests;
         public int npcTypeCount;
+
+        public int maxActivities;
+        
     }
 }
