@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd861ea35e9a41158bccf4d4a8c48e66, type: 3}
   m_Name: Hippie
   m_EditorClassIdentifier: 
-  person: {fileID: 0}
+  person: {fileID: 21300000, guid: a510f1d2da8595c47ad3dbbf64b34002, type: 3}
   typeName: Hippie

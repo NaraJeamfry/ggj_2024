@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd861ea35e9a41158bccf4d4a8c48e66, type: 3}
   m_Name: Calvo
   m_EditorClassIdentifier: 
-  person: {fileID: 0}
+  person: {fileID: 21300000, guid: 9a921102e6baab1438efd833a6d64d74, type: 3}
   typeName: Calvo

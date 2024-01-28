@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd861ea35e9a41158bccf4d4a8c48e66, type: 3}
   m_Name: Rubia
   m_EditorClassIdentifier: 
-  person: {fileID: 0}
+  person: {fileID: 21300000, guid: 2a3d9939cfc4fa84ab5c97e294ff9934, type: 3}
   typeName: Rubia
