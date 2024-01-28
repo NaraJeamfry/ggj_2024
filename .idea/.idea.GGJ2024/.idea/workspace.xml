@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62df8c6d-9130-47fa-9bd2-9fd374afd9c7" name="Changes" comment="feat: Implemented turn-based activity choosing">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundInitializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/RoundSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightPreview.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Night/NightPreview.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Guest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Guest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/NpcType.cs" afterDir="false" />
+    <list default="true" id="62df8c6d-9130-47fa-9bd2-9fd374afd9c7" name="Changes" comment="feat: RoundInitializer now generates settings for round">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/EActivityTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/EActivityTypes.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SetupScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SetupScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NightScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NightScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/SectionTypeUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/SectionTypeUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/SectionWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/SectionWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/SectionsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/SectionsUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/SelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/SelectionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Night/ShowElementUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Night/ShowElementUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ShowActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ShowActivity.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +38,34 @@
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/NightScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/PreparationScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/PreparationScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/ResultScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scenes/SetupScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/ScriptableObjects/Activities/dosHoras.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scripts/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/Scripts/Night/SectionsUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Results/ResultManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ShowTheme.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/TextMesh Pro/Documentation.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/TextMesh Pro/Documentation.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/marc/UnityProjects/GGJ2024/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Toggle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/marc/UnityProjects/GGJ2024/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -137,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706295597239</updated>
-      <workItem from="1706295599470" duration="33184000" />
+      <workItem from="1706295599470" duration="34898000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First Unity commit">
       <option name="closed" value="true" />
@@ -195,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706379089184</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: RoundInitializer now generates settings for round">
+      <option name="closed" value="true" />
+      <created>1706434945929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706434945929</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: RoundInitializer now generates settings for round">
+      <option name="closed" value="true" />
+      <created>1706434965671</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706434965671</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +255,8 @@
     <MESSAGE value="chore: missing files in last commit" />
     <MESSAGE value="feat: night cycle completed" />
     <MESSAGE value="feat: Implemented turn-based activity choosing" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented turn-based activity choosing" />
+    <MESSAGE value="feat: RoundInitializer now generates settings for round" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/preparation' into gameManager&#10;&#10;# Conflicts:&#10;#&#9;Assets/Scenes/NightScene.unity&#10;#&#9;Assets/TextMesh Pro.meta&#10;#&#9;Assets/TextMesh Pro/Documentation.meta&#10;#&#9;Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf&#10;#&#9;Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta&#10;#&#9;Assets/TextMesh Pro/Fonts.meta&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans.ttf&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta&#10;#&#9;Assets/TextMesh Pro/Resources.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/TMP Settings.asset&#10;#&#9;Assets/TextMesh Pro/Resources/TMP Settings.asset.meta&#10;#&#9;Assets/TextMesh Pro/Shaders.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Sprite.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Sprites.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.json&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.json.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.png&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/preparation' into gameManager&#10;&#10;# Conflicts:&#10;#&#9;Assets/Scenes/NightScene.unity&#10;#&#9;Assets/TextMesh Pro.meta&#10;#&#9;Assets/TextMesh Pro/Documentation.meta&#10;#&#9;Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf&#10;#&#9;Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta&#10;#&#9;Assets/TextMesh Pro/Fonts.meta&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans.ttf&#10;#&#9;Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta&#10;#&#9;Assets/TextMesh Pro/Resources.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt&#10;#&#9;Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets.meta&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset&#10;#&#9;Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta&#10;#&#9;Assets/TextMesh Pro/Resources/TMP Settings.asset&#10;#&#9;Assets/TextMesh Pro/Resources/TMP Settings.asset.meta&#10;#&#9;Assets/TextMesh Pro/Shaders.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Sprite.shader&#10;#&#9;Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc&#10;#&#9;Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta&#10;#&#9;Assets/TextMesh Pro/Sprites.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.json&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.json.meta&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.png&#10;#&#9;Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" />
   </component>
 </project>
