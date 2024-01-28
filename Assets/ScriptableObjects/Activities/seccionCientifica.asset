@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: "Secci\xF3n Cientifica"
-  type: 0
+  type: 4
   repetitionWear: 0.7
   extraEffects: 0
   needsChoice: 0

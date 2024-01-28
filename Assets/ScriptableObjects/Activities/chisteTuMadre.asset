@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Chiste de tu madre
-  type: 0
+  type: 1
   repetitionWear: 0.9
   extraEffects: 0
   needsChoice: 0

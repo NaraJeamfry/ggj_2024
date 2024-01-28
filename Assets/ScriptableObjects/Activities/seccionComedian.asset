@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Seccion Comediante
-  type: 0
+  type: 4
   repetitionWear: 0.6
   extraEffects: 0
   needsChoice: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Brud Pitt
-  type: 0
+  type: 2
   repetitionWear: 0.3
   extraEffects: 0
   needsChoice: 0

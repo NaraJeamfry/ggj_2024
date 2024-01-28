@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   length: 1
   activityName: Chiste Monarca
-  type: 0
+  type: 1
   repetitionWear: 0.8
   extraEffects: 0
   needsChoice: 0
