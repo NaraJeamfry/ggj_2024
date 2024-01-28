@@ -331,7 +331,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1937803573}
         m_TargetAssemblyTypeName: Managers.GameManager, Assembly-CSharp
-        m_MethodName: StartNight
+        m_MethodName: StartPreparing
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -728,16 +728,14 @@ MonoBehaviour:
     nightThemes:
     - {fileID: 11400000, guid: a02a87ec8abae420f8d052432fd517c5, type: 2}
     showActivities:
-    - Activity: {fileID: 11400000, guid: 79b53349fa4b74b04abe9593b4d22c07, type: 2}
-      ChosenThemes: []
-    - Activity: {fileID: 11400000, guid: 7156ca70558074e4db304d8476064b66, type: 2}
-      ChosenThemes: []
-    - Activity: {fileID: 11400000, guid: e07aad02e4d8442d0a290aea4a6548b8, type: 2}
-      ChosenThemes: []
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     preview:
       settings:
         validTypes: []
       guests: []
+      extraTheme: {fileID: 0}
   money: 0
   renown: 0
   stamina: 0
@@ -752,6 +750,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: c1f1af2ecc45f4ac889c8ea8462e4936, type: 2}
     guests: []
     npcTypeCount: 2
+    maxActivities: 0
   _paused: 0
   initialSeed: 1
   startRandom: 0
@@ -759,6 +758,7 @@ MonoBehaviour:
     settings:
       validTypes: []
     guests: []
+    extraTheme: {fileID: 0}
 --- !u!1 &2140705456
 GameObject:
   m_ObjectHideFlags: 0

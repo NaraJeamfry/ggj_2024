@@ -3388,7 +3388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.2536621, y: -49.5}
+  m_AnchoredPosition: {x: 480, y: -41.925}
   m_SizeDelta: {x: 425.2527, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1459373127
@@ -3854,16 +3854,14 @@ MonoBehaviour:
     nightThemes:
     - {fileID: 11400000, guid: a02a87ec8abae420f8d052432fd517c5, type: 2}
     showActivities:
-    - Activity: {fileID: 11400000, guid: 7156ca70558074e4db304d8476064b66, type: 2}
-      ChosenThemes: []
-    - Activity: {fileID: 11400000, guid: d14f08a4d179a4f9a982da45f95b9ca5, type: 2}
-      ChosenThemes: []
-    - Activity: {fileID: 11400000, guid: 79b53349fa4b74b04abe9593b4d22c07, type: 2}
-      ChosenThemes: []
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     preview:
       settings:
         validTypes: []
       guests: []
+      extraTheme: {fileID: 0}
   readyToAdvance: 0
   nightOngoing: 0
   startTime: 18
@@ -4582,7 +4580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 409}
+  m_AnchoredPosition: {x: 502, y: 411.59}
   m_SizeDelta: {x: 425.2527, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1867610315
@@ -5570,12 +5568,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 645196351}
   - {fileID: 692860897}
   - {fileID: 1734315084}
   - {fileID: 1048559475}
   - {fileID: 519054202}
   - {fileID: 1305128948}
+  - {fileID: 645196351}
   - {fileID: 1459373126}
   - {fileID: 1867610314}
   m_Father: {fileID: 0}

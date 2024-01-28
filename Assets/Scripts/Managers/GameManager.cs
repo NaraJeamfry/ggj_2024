@@ -54,6 +54,11 @@ namespace Managers
             }
         }
 
+        public void StartPreparing()
+        {
+            SceneManager.LoadScene("PreparationScene", LoadSceneMode.Single);
+        }
+
         public void FinishPreparing(NightState state)
         {
             currentNight = state;
