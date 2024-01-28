@@ -39,8 +39,9 @@ public class ProgressManager : MonoBehaviour
             
             RectTransform prt = newPS.GetComponent<RectTransform>();
 
+            prt.pivot = new Vector2(0, 0); //left, top
             prt.offsetMin = new Vector2(0, 0); //left, top
-            prt.offsetMax = new Vector2(0, 14); //right, bottom
+            prt.offsetMax = new Vector2(0, 23); //right, bottom
             //prt.sizeDelta = new Vector2(prt.sizeDelta.x, progressBar.GetComponent<RectTransform>().rect.size.y);
             prt.anchorMin = new Vector2(panelMinAnchor,0);
             prt.anchorMax = new Vector2(panelMaxAnchor,0);
