@@ -7,12 +7,12 @@ public class ProgressBar : MonoBehaviour
     [Range(0,1  )]
     public float progress = 0;
     public GameObject bar;
-    public float barMaxWidthPx = 563;
+    public float barMaxWidthPx;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        barMaxWidthPx = GetComponent<RectTransform>().sizeDelta.x;
     }
 
     // Update is called once per frame
